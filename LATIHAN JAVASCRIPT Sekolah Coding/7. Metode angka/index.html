@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1</title>
+    <style>
+        #wrap {
+            width: 200px;
+            height: 200px;
+            background-color: #000;
+            color: #fff;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="wrap"></div>
+
+    <script>
+        var angka1 = 100;
+        var angka2 = 200;
+        var angka3 = 300;
+
+        //---- Metode number ---
+        // toFixed(n) toString() random min(a, b, c) max(a, b, c)
+        
+        // --- Metode toFixed()
+        // var angka = angka1.toFixed(2);
+
+        // --- Metode toString()
+        // var angka = angka1.toString() + angka2;
+
+        // --- Metode random
+        // var angka = Math.random();
+
+        // --- Metode min
+        // var angka = Math.min(angka1, angka2, angka3);
+
+        --- Metode Max 
+        var angka = Math.max(angka1, angka2, angka3);
+
+        document.getElementById("wrap").innerHTML = angka;
+    </script>
+</body>
+
+</html>
